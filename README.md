@@ -14,3 +14,4 @@ Data Studio :- Connected Data Studio with BigQuery and done visualization in Dat
 [Architecture.pdf](https://github.com/hiteshvaidya27/Building-ETL-pipeline-and-performing-analysis-on-Startup-Data/files/9174516/Architecture.pdf)
 
 
+[Visualization.pdf](https://github.com/hiteshvaidya27/Building-ETL-pipeline-and-performing-analysis-on-Startup-Data/files/9174528/Visualization.pdf)
