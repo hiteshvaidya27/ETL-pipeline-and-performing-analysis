@@ -11,3 +11,6 @@ BigQuery :- Imported data in BigQuery from Google Cloud Storage.
 Data Studio :- Connected Data Studio with BigQuery and done visualization in Data Studio.
 
 
+[Architecture.pdf](https://github.com/hiteshvaidya27/Building-ETL-pipeline-and-performing-analysis-on-Startup-Data/files/9174516/Architecture.pdf)
+
+
