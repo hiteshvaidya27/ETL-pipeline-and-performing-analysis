@@ -1,0 +1,10 @@
+
+Commands to create GCP Dataproc Cluster having component gateway enabled
+gcloud dataproc clusters create cluster-2027 --enable-component-gateway --bucket hitesh-for-project --region us-central1 --zone us-central1-b --master-machine-type n1-standard-4 --master-boot-disk-size 50 --num-workers 2 --worker-machine-type n1-standard-4 --worker-boot-disk-size 50 --image-version 1.5-debian10 --optional-components ANACONDA,JUPYTER --scopes 'https://www.googleapis.com/auth/cloud-platform' --project silent-emissary-353206
+
+--bucket hitesh-for-project ==> To use bucket parameter, create bucket with a Unique name first in Google Cloud Storage.
+--project silent-emissary-353206  ==> provide your project name here.
+
+commands to create a Dataproc job
+gcloud dataproc jobs submit pyspark /home/hiteshvaidya27/project/Dataproc.py --cluster=cluster-2027 --region=us-central1
+/home/hiteshvaidya27/project/Dataproc.py   ==> Provide a Path where your .py file is store.
